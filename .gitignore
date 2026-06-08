@@ -1,0 +1,15 @@
+# Local research and generated QA artifacts
+source_extracts/
+qa_screenshots/
+outputs/
+homepage_assets/
+yhlayuen_mockup/
+
+# Local agent/tool state
+.agents/
+.codex/
+
+# Common temporary files
+node_modules/
+*.log
+*.tmp
