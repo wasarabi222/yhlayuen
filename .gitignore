@@ -8,6 +8,7 @@ yhlayuen_mockup/
 # Local agent/tool state
 .agents/
 .codex/
+.github_token
 
 # Common temporary files
 node_modules/
