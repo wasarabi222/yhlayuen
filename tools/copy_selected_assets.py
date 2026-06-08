@@ -6,8 +6,9 @@ import math
 import re
 
 
-REVIEW = Path(r"C:\Users\hwaeu\OneDrive\臾몄꽌\yhlayuen\homepage_assets\__review")
-OUT = Path(r"C:\Users\hwaeu\OneDrive\臾몄꽌\yhlayuen\homepage_assets")
+WORKSPACE = Path.home() / "OneDrive" / "문서" / "yhlayuen"
+REVIEW = WORKSPACE / "homepage_assets" / "__review"
+OUT = WORKSPACE / "homepage_assets"
 MAX_SIDE = 2400
 
 SELECTED = [
@@ -61,8 +62,7 @@ SUPPLEMENTAL = [
     (r"C:\Users\CodexSandboxOffline\.codex\.sandbox\cwd\c53e59c34238c068\outputs\yhlayuen-pptx-inspect\company\ppt\media\image1.png", "05-space-archive", "studio/classroom", 82, "PPT source: classroom/studio scene with director. Use for where-it-happens, not hero."),
     (r"C:\Users\CodexSandboxOffline\.codex\.sandbox\cwd\c53e59c34238c068\outputs\yhlayuen-pptx-inspect\program\ppt\media\image16.jpg", "04-experience", "finished seal", 86, "PPT source: finished seal/name cards. Good experience detail."),
     (r"C:\Users\CodexSandboxOffline\.codex\.sandbox\cwd\c53e59c34238c068\outputs\yhlayuen-pptx-inspect\program\ppt\media\image17.jpg", "04-experience", "finished seal", 84, "PPT source: multiple finished seals. Colorful; use small."),
-    (r"C:\Users\hwaeu\Dropbox\@?대씪??源?꾩닕?ъ쭊- .jpg", "02-profile-works", "profile portrait", 78, "Dropbox source: formal portrait candidate. Usable, but a newer warm studio portrait would be better."),
-    (r"C:\Users\hwaeu\Dropbox\@?대씪???대씪?곗옄?붿긽2.jpg", "02-profile-works", "artist identity", 88, "Dropbox source: self-portrait style engraving image. Strong conceptual profile support."),
+    # Dropbox filenames varied during source gathering. Keep only verified paths here.
 ]
 
 

@@ -4,8 +4,8 @@ import re
 import xml.etree.ElementTree as ET
 
 
-PPTX = Path(r"C:\Users\hwaeu\OneDrive\臾몄꽌\移댁뭅?ㅽ넚 諛쏆? ?뚯씪\??026-?꾧컖 罹섎━洹몃씪??留뚮뱾湲??꾨줈洹몃옩 ?쒖븞?? ?곷Ц.pptx")
-OUT = Path(r"C:\Users\hwaeu\OneDrive\臾몄꽌\yhlayuen\yhlayuen_mockup\source_notes")
+PPTX = Path.home() / "OneDrive" / "문서" / "카카오톡 받은 파일" / "★2026-전각 캘리그라피 만들기 프로그램 제안서_ 영문.pptx"
+OUT = Path.home() / "OneDrive" / "문서" / "yhlayuen" / "yhlayuen_mockup" / "source_notes"
 
 
 def slide_number(name: str) -> int:
